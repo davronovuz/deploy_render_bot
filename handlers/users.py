@@ -7,7 +7,7 @@ user_router=Router()
 # start buyrug'i uchun handler
 @user_router.message(Command("start"))
 async def start_message(message:types.Message):
-    await message.answer("Salom xush kelibsiz..")
+    await message.answer("Hi everyone ...")
 
 
 
